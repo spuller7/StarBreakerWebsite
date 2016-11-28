@@ -1,0 +1,80 @@
+@import url('header-login-signup.css');
+@import url('style.css');
+@import url('footer.css');
+@import url('ihover.css');
+@import url('slider.css');
+@import url('navigation.css');
+
+/*
+ * Don't delete this, this is what makes the webpage full width!
+ */
+body {
+	margin:0;
+	padding:0;
+}
+#container {
+	text-align: justify;
+	}
+#container > div {
+	width: 200px; /* Declare your value. Can be in relative units. */
+	display: inline-block;
+	vertical-align: top;
+
+	/* IE fix. */
+	*display: inline;
+	zoom: 1;
+	margin: 20px 90px;
+	}
+#container:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+    }
+    
+.button1{
+   border: 2px solid #ff0000;
+   background: #9c0000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#de0000), to(#9c0000));
+   background: -webkit-linear-gradient(top, #de0000, #9c0000);
+   background: -moz-linear-gradient(top, #de0000, #9c0000);
+   background: -ms-linear-gradient(top, #de0000, #9c0000);
+   background: -o-linear-gradient(top, #de0000, #9c0000);
+   background-image: -ms-linear-gradient(top, #de0000 0%, #9c0000 100%);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #ffffff;
+   font-size: 30px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button1:hover {
+   border: 2px solid #000000;
+   text-shadow: #1e4158 0 1px 0;
+   background: #6a6a6b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c4c4c4), to(#6a6a6b));
+   background: -webkit-linear-gradient(top, #c4c4c4, #6a6a6b);
+   background: -moz-linear-gradient(top, #c4c4c4, #6a6a6b);
+   background: -ms-linear-gradient(top, #c4c4c4, #6a6a6b);
+   background: -o-linear-gradient(top, #c4c4c4, #6a6a6b);
+   background-image: -ms-linear-gradient(top, #c4c4c4 0%, #6a6a6b 100%);
+   color: #ffdd00;
+   }
+.button1:active {
+   text-shadow: #ffffff 0 1px 0;
+   border: 2px solid #ffffff;
+   background: #808080;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a8a8a8), to(#6a6a6b));
+   background: -webkit-linear-gradient(top, #a8a8a8, #808080);
+   background: -moz-linear-gradient(top, #a8a8a8, #808080);
+   background: -ms-linear-gradient(top, #a8a8a8, #808080);
+   background: -o-linear-gradient(top, #a8a8a8, #808080);
+   background-image: -ms-linear-gradient(top, #a8a8a8 0%, #808080 100%);
+   color: #fff;
+   }
