@@ -20,13 +20,13 @@
 
 		<div class="header-limiter">
 
-			<h1><a href="#">Star Breaker <span>Studios</span></a></h1>
+			<h1><a href="/StarBreakerWebsite">Star Breaker <span>Studios</span></a></h1>
 	
 			<nav>
 				<a href="/starbreakerwebsite" class="selected">Home</a>
 				<a href="/starbreakerwebsite/shitstorm/index.php">Games</a>
-				<a href="#">Blog</a>
-				<a href="#">Portfolio</a>
+				<a href="/StarBreakerWebsite/blog">Blog</a>
+				<a href="/StarBreakerWebsite/portfolio">Portfolio</a>
 
 			</nav>
 			</div>
@@ -53,14 +53,14 @@
 	<center><div style="min-width: 100%;">		
 			<img src="/StarBreakerWebsite/images/sstitle.png" align="middle"alt="">
 
-	</div><div style="margin-top: -8em;"><a href='#' class='button1'>Play Shitstorm</a></div>
+	</div><div style="margin-top: -8em;"><a href='/StarBreakerWebsite/shitstorm' class='button1'>Play Shitstorm</a></div>
 
 	</center>
 	<div>
 	
 	</div>
 	<div id="container" style="opacity: .99">
-	<div><div class="ih-item circle colored effect13 top_to_bottom"><a href="#">
+	<div><div class="ih-item circle colored effect13 top_to_bottom"><a href=".StarBreakerWebsite/syndicateofsailors">
 			<div class="img"><img src="/StarBreakerWebsite/images/sos.png" alt="img">
 			</div>
 			<div class="info">
@@ -70,7 +70,7 @@
   				</div>
 			</div></a>
 		</div></div>
-	<div><div class="ih-item circle colored effect13 top_to_bottom"><a href="#">
+	<div><div class="ih-item circle colored effect13 top_to_bottom"><a href="/StarBreakerWebsite/huntersfable">
 			<div class="img"><img src="/StarBreakerWebsite/images/pic.png" alt="img">
 			</div>
 			<div class="info">
@@ -80,7 +80,7 @@
   				</div>
 			</div></a>
 		</div></div>
-	<div><div class="ih-item circle colored effect13 top_to_bottom"><a href="#">
+	<div><div class="ih-item circle colored effect13 top_to_bottom"><a href="/StarBreakerWebsite/shitstorm">
 			<div class="img"><img src="/StarBreakerWebsite/images/ss.png" alt="img">
 			</div>
 			<div class="info">
@@ -90,7 +90,7 @@
   				</div>
 			</div></a>
 		</div></div>
-	<div><div class="ih-item circle colored effect13 top_to_bottom"><a href="#">
+	<div><div class="ih-item circle colored effect13 top_to_bottom"><a href="/StarBreakerWebsite">
 			<div class="img"><img src="/StarBreakerWebsite/images/sblogo.png" alt="img">
 			</div>
 			<div class="info">
@@ -106,28 +106,31 @@
 			<div id='logos'>
 				<ul>
 					<li>
-						<img src="/StarBreakerWebsite/images/unity-logo.png"/>
+						<a target="_blank" href="http://www.unity3d.com"><img src="/StarBreakerWebsite/images/unity-logo.png"/></a>
 					</li>
 					<li></li>
 					<li>
-						<img src="/StarBreakerWebsite/images/mayalogo.png"/>
+						<a target="_blank" href="http://www.autodesk.com/products/maya/overview"><img src="/StarBreakerWebsite/images/mayalogo.png"/></a>
 					</li>
+					<li></li>
 					<li>
-						<img src="/StarBreakerWebsite/images/blender-socket.png"/>
+						<a target="_blank" href="https://www.blender.org/"><img src="/StarBreakerWebsite/images/blender-socket.png"/></a>
+					</li>
+					<li></li>
+					<li>
+						<a target="_blank" href="https://www.visualstudio.com/"><img src="/StarBreakerWebsite/images/vs-logo.png"/></a>
+					</li>
+				
+					<li>
+						<a target="_blank" href="http://www.adobe.com/products/fuse.html"><img src="/StarBreakerWebsite/images/fuse-logo.png"/></a>
+					</li>
+				
+					<li>
+						<a target="_blank" href="https://www.mixamo.com/"><img src="/StarBreakerWebsite/images/mixamo-logo.png"/></a>
 					</li>
 					
 					<li>
-						<img src="/StarBreakerWebsite/images/vs-logo.png"/>
-					</li>
-					<li>
-						<img src="/StarBreakerWebsite/images/fuse-logo.png"/>
-					</li>
-					<li>
-						<img src="/StarBreakerWebsite/images/mixamo-logo.png"/>
-					</li>
-					<li>
-
-						<img src="/StarBreakerWebsite/images/unitycollab-logo.png"/>
+						<a target="_blank" href="https://unity3d.com/services/collaborate"><img src="/StarBreakerWebsite/images/unitycollab-logo.png"/></a>
 					</li>
 				</ul>
 			</div>
@@ -156,8 +159,8 @@
 					</p>
 
 					<p class="fieldset">
-						<input type="checkbox" id="remember-me" checked>
-						<label for="remember-me">Remember me</label>
+						<input type="checkbox" id="Remember-me" checked>
+						<label for="Remember-me">Remember me</label>
 					</p>
 
 					<p class="fieldset">

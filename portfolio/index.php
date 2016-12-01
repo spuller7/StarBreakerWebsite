@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -6,7 +5,9 @@
 	<meta name="keywords" content="drop-down, select, jquery, plugin, fallback, transition, transform, 3d, css3" />
 	<link rel="stylesheet" href="/StarBreakerWebsite/css/main-menu.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Travis Spuller</title>
 
+		<link rel="stylesheet" href="/StarbreakerWebsite/css/portfolio.css">
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="/StarBreakerWebsite/css/reset.css"> <!-- CSS reset -->
@@ -15,7 +16,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/StarBreakerWebsite/js/popup.js"></script> <!-- Gem jQuery -->
 	<script src="/StarBreakerWebsite/js/modernizr.custom.63321.js"></script>
-	<header class="header-login-signup" style="z-index: 5;" role="banner">
+	<header class="header-login-signup" style="z-index: 5; margin-bottom: 2em;" role="banner">
 
 
 		<div class="header-limiter">
@@ -40,20 +41,42 @@
 		
 		
 	</header>
-		<div id="bg">
-		<img src="/StarBreakerWebsite/images/hunter-background.jpg" alt="">
-	</div>
-	 <body class="news">
-	    <div class="nav" style="top:50px;width:100%; position: fixed;z-index: 1;">
-	      	<ul>
-		        <li><a class="active" href="/starbreakerwebsite/huntersfable">The Hunter's Fable</a></li>
-		        <li><a href="/starbreakerwebsite/shitstorm">Shitstorm</a></li>
-		        <li><a href="/starbreakerwebsite/syndicateofsailors">Syndicate of Sailors</a></li>
-		  	</ul>
-    	</div>
-	</body>
+		
+	<body class="news">
+    	<div id="bg">
+		<img src="/StarBreakerWebsite/images/portfolio-background.png" alt="">
+		</div>
+		<div class="avatar">
+			<img src="/StarBreakerWebsite/images/me.jpg" alt="/StarbreakerWebsite/images/Avatar.png">
+		</div>
+
+		<div class="content">
+			<h1 class="title">Travis<br>Spuller</h1>
+
+			<p>
+				Put your short bio here.<br>
+				Put where you're from here.
+			</p>
+
+			<ul class="social-icons">
+				<li><a class="twitter" href="#" title="Twitter">Twitter</a></li>
+				<li><a class="facebook" href="#" title="Facebook">Facebook</a></li>
+				<li><a class="googleplus" href="#" title="Google+">Google+</a></li>
+				<li><a class="dribbble" href="#" title="Dribbble">Dribbble</a></li>
+				<li><a class="instagram" href="#" title="Instagram">Instagram</a></li>
+				<li><a class="flickr" href="#" title="Flickr">Flickr</a></li>
+			</ul>
+
+			<p>
+				Founder of Star Breaker Studios<br>
+				<a href="#">theultralinx.com</a><br>
+				<a href="">ultralinxweb.com</a>
+			</p>
+
+			<p>Want to send me a love letter? <a href="#">Email me</a>.</p>
+		</div>
+	
 	<div id="footer-box">
-			<?php //logos ?>
 			<div id='logos'>
 				<ul>
 					<li>
@@ -178,5 +201,4 @@
 		</div> <!-- cd-user-modal-container -->
 	</div> <!-- cd-user-modal -->
 
-</meta>
 </head>

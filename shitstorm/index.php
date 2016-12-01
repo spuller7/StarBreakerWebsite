@@ -41,9 +41,9 @@
   <body class="news">
     <div class="nav" style="top:50px;width:100%; position: fixed;z-index: 1;">
       		<ul>
-		        <li><a href="/starbreakerwebsite/huntersfable">The Hunter's Fable ©</a></li>
-		        <li><a class="active" href="/starbreakerwebsite/shitstorm">Shitstorm ©</a></li>
-		        <li><a href="/starbreakerwebsite/syndicateofsailors">Syndicate of Sailors ©</a></li>
+		        <li><a href="/starbreakerwebsite/huntersfable">The Hunter's Fable</a></li>
+		        <li><a class="active" href="/starbreakerwebsite/shitstorm">Shitstorm</a></li>
+		        <li><a href="/starbreakerwebsite/syndicateofsailors">Syndicate of Sailors</a></li>
 		  	</ul>
     	</div>
     <!-- Start Top Bar -->

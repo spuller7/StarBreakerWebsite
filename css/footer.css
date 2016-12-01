@@ -10,6 +10,9 @@
 	max-height: 2em;
 	margin-top: .2em;
 }
+#logos li a{
+	target="_blank";
+}
 #footer-box{
 	position: fixed; bottom: 0; min-width: 100%; background-color:#292c2f;
 	box-shadow:1px 0px 1px 1px #ccc;
